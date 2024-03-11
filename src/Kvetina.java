@@ -7,4 +7,5 @@ public class Kvetina extends Flower{
     public String getInfo() {
         return "Květina: " + name + ", Cena: " + price + ", Potřebná plocha: " + neededArea + "m², Šance na růst: " + chanceOfGrowth + "%";
     }
+
 }

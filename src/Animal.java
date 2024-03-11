@@ -50,4 +50,5 @@ public abstract class Animal {
     public void setSpecialCare(String specialCare) {
         this.specialCare = specialCare;
     }
+
 }

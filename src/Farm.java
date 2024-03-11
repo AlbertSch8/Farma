@@ -11,4 +11,8 @@ public class Farm {
         }
     }
 
+    public void odebratRostlinu(Flower rostlina) {
+        rostliny.remove(rostlina);
+    }
+
 }

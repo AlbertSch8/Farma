@@ -15,4 +15,12 @@ public class Farm {
         rostliny.remove(rostlina);
     }
 
+    public void pridatZvire(Animal zvire) {
+        if ("velké".equals(zvire.size) && zvirata.stream().filter(z -> "velké".equals(z.size)).count() < 10 ||
+                "malé".equals(zvire.size) && zvirata.stream().filter(z -> "malé".equals(z.size)).count() < 10) {
+            zvirata.add(zvire);
+        }
+    }
+
+
 }

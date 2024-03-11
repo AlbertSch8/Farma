@@ -22,5 +22,10 @@ public class Farm {
         }
     }
 
+    public void odebratZvire(Animal zvire) {
+        zvirata.remove(zvire);
+    }
+
+
 
 }

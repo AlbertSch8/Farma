@@ -18,6 +18,7 @@ public abstract class Flower {
     public void zavlaha(){
         chanceOfGrowth += 0.5;
         System.out.println("rostlina byla zavlazena a zvisila se jeji snace na rust");
+        System.out.println();
     }
 
 }

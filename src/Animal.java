@@ -14,4 +14,8 @@ public abstract class Animal {
                 ", specialCare='" + specialCare + '\'' +
                 '}';
     }
+
+    public String getInfo() {
+        return "Druh: " + type + ", Jméno: " + name + ", Velikost: " + size + ", Speciální péče: " + (specialCare);
+    }
 }

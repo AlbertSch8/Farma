@@ -21,4 +21,6 @@ public abstract class Flower {
         System.out.println();
     }
 
+    public abstract String getInfo();
+
 }

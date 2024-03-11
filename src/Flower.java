@@ -5,6 +5,9 @@ public abstract class Flower {
     protected double neededArea;
     protected double chanceOfGrowth;
 
+    public Flower(String nazev, double cena, double potrebnaPlocha, int i) {
+    }
+
     @Override
     public String toString() {
         return "Flower{" +
